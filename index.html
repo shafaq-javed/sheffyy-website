@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Birthday Greeting</title>
+    <style>
+      body {
+        background: linear-gradient(to right, #ff7e5f, #feb47b);
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #fff;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .container {
+        width: 90%;
+        max-width: 600px;
+        height: 90%;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 12px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        animation: fadeIn 2s ease-out;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .bday {
+        font-weight: bold;
+        font-size: 2.5rem; 
+        color: #ff6f61;
+        margin: 10px 0;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        animation: bounce 1s infinite;
+      }
+
+      @keyframes bounce {
+        0%,
+        20%,
+        50%,
+        80%,
+        100% {
+          transform: translateY(0);
+        }
+        40% {
+          transform: translateY(-10px);
+        }
+        60% {
+          transform: translateY(-5px);
+        }
+      }
+
+      .behn-button {
+        border: 2px solid #ff6f61;
+        background-color: #fff;
+        color: #ff6f61;
+        border-radius: 8px;
+        font-weight: bold;
+        font-size: 1.2rem; /* Adjusted for responsiveness */
+        height: 50px;
+        padding: 0 20px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        margin: 20px 0;
+        display: inline-block;
+        line-height: 50px; /* Vertically center text */
+      }
+
+      .behn-button:hover {
+        background-color: #ff6f61;
+        color: #fff;
+      }
+
+      .biday,
+      .beday,
+      .baday,
+      .buday,
+      .bdy,
+      .final {
+        font-size: 1rem; /* Adjusted for responsiveness */
+        margin: 10px 0;
+        line-height: 1.4;
+      }
+
+      .biday {
+        color: #ff6f61;
+      }
+
+      .beday {
+        color: #ffb347;
+      }
+
+      .baday {
+        color: #ffb347;
+      }
+
+      .buday {
+        color: #8e44ad;
+      }
+
+      .bdy {
+        color: #ff6f61;
+      }
+
+      .final {
+        font-weight: bold;
+        font-size: 1.5rem; 
+        color: #ff6f61;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+        margin-top: 20px;
+      }
+
+      .emojis {
+        font-size: 1.5rem;
+        margin: 10px 0;
+      }
+
+      /* Responsive adjustments */
+      @media (max-width: 600px) {
+        .bday {
+          font-size: 2rem;
+        }
+
+        .container {
+          margin: auto 5px;
+        }
+        .behn-button {
+          font-size: 1rem;
+          height: 45px;
+          padding: 0 15px;
+        }
+
+        .biday,
+        .beday,
+        .baday,
+        .buday,
+        .bdy,
+        .final {
+          font-size: 0.9rem;
+        }
+
+        .final {
+          font-size: 1.2rem;
+        }
+
+        .emojis {
+          font-size: 1.2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p class="bday">🎂 HAPPY BIRTHDAY 🎂</p>
+      <button class="behn-button">ADITTI DARLING 🫶</button>
+      <p class="biday">
+        Happy birthday to the one who always lifts my spirits. Cheers to many
+        more years of laughter and good times together!
+      </p>
+      <p class="emojis">🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳</p>
+      <p class="beday">
+        On your special day, I want to take a moment to let you know how much I
+        cherish our friendship. Happy birthday to someone who brings so much
+        warmth into my life.
+      </p>
+      <p class="emojis">😆🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳</p>
+      <p class="baday">
+        Wishing you an extraordinary year ahead filled with exciting
+        opportunities, new achievements, and beautiful moments.
+      </p>
+      <p class="emojis">🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳</p>
+      <p class="buday">
+        Happy birthday! Remember, you’re not 40, you’re 18 with 22 years of
+        experience.
+      </p>
+      <p class="emojis">🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳</p>
+      <p class="bdy">
+        Wishing you a day as bright as your smile, as wild as your spirit, and
+        as funny as your jokes. Happy birthday, my incredibly entertaining
+        ADITTI!
+      </p>
+      <p class="emojis">🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳</p>
+      <p class="final">🎂🫶 HAPPIEST BIRTHDAY FROM SHEFFYY 🫶🎂</p>
+      <p class="emojis">🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳</p>
+    </div>
+  </body>
+</html>
